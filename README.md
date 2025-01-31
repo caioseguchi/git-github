@@ -65,15 +65,19 @@ cd ..
 
 # Delete a directory
 rm -r name-of-directory
+
 📌 Git Push and Status
-#Check the status of repository
+
+# Check the status of repository
 git status
 
-#Changes to the staging area
+# Changes to the staging area
 git add *
 
 git commit -m "Describe what you are doing, e.g., Add new file"
+
 git push origin main
+
 📌 Git Branching
 # Check the branch list
 git branch
@@ -95,6 +99,8 @@ git branch
 
 # Push the new branch to GitHub
 git push -u origin new-branch-name
+
+
 📌 Merging Branches
 # Switch to the main branch
 git checkout main
